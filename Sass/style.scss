@@ -219,7 +219,7 @@ h4
 
     
 }
-h4::after
+h5::after, h4::after
 {
     content: "";
     display: block;
@@ -228,7 +228,7 @@ h4::after
     background:linear-gradient(to right,#00bfff,#000);
     transition: all 0.2s ease;
 }
-h4:hover::after
+h5:hover::after,  h4:hover::after
 {
     width: 100%;
     transition: all 0.2s ease;
@@ -298,8 +298,76 @@ li span
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100vh;
     background-color: #fcdfdb;
     font-family: cursive; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+}
+.accueil2
+{
+    background-color: #fff5fe;
+    color:  #e38913;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+.accueil3
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px; 
+    background-color: #f9f9f9;
+}
+.accueil4
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: #ffffff;
+}
+.page4
+{
+    background: linear-gradient(to right,#90ee90,#32cd32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page3
+{
+    background: linear-gradient(to right, #1e90ff,#00bfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page2 span
+{
+    background: linear-gradient(to right,#e38913 30%,#8f5bfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media(max-width:768px)
 { 
