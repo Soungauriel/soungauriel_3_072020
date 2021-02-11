@@ -12,6 +12,7 @@ a
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .section-accueil
 {
@@ -127,6 +128,7 @@ h1
     background-color: #579c87;
     text-align: center;
     padding: 10px;
+    margin-top: 0;
 }
 .aven
 {
@@ -176,6 +178,8 @@ main
     justify-content: space-around;
     background-color: #579c87;
     color: #fdcb46;
+    height: 100%;
+    align-items: center;
 }
 ul
 {
@@ -183,9 +187,14 @@ ul
 }
 footer
 {
+    
     width: 100%;
     bottom: 0;
     left: 0;
+    background-color: #579c87;
+    height: 57px;
+    position: fixed;
+
 }
 .makt1 
 {
