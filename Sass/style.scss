@@ -137,34 +137,48 @@ h1
     background-color: #579c87;
     color: #fdcb46;
     text-align: center;
-    width: 225px;
+    width: 210px;
     margin: 10%;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-bottom: 100px;
 }
-.aven h2:hover::after
+.aven h2 span:nth-child(2)
 {
-    content: " ...";
-    font-size: 1em;
-    animation: point 1s steps(5,end) infinite;
+   
+    animation: point 1s infinite;
+    animation-delay: 0.25s;
 }
 
+.aven h2 span:nth-child(3)
+{
+   
+    animation: point 1s infinite;
+    animation-delay: 0.5s;
+}
+.aven h2 span:nth-child(4)
+{
+   
+    animation: point 1s infinite;
+    animation-delay: 0.75s;
+
+}
 @keyframes point  {
     0%{
-        transform: scale(0);
-        color: #e38913;
+    
+        color: #fdcb46;
+        opacity: 0;
     }
-    20%{
-        transform: scale(1);
-        color: #e38913;
-    }
+    
     40%{
-        transform: scale(2);
+        
         color: #f9f9f9;
     }
-    60%{
-        transform: scale3d(3);
+    100%{
+    
+        color: #fdcb46;
+        opacity: 1;
     }
+
     }
 
 main
@@ -185,13 +199,12 @@ ul
 {
     display: contents;
 }
-footer
+footer 
 {
     
     width: 100%;
     bottom: 0;
     left: 0;
-    background-color: #579c87;
     height: 67px;
     position: fixed;
 
