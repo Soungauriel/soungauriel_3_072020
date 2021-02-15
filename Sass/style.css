@@ -6,12 +6,14 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .main-accueil {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 65px;
 }
 
 .section-accueil {
@@ -127,14 +129,15 @@ h1 {
   background-color: #579c87;
   color: #fdcb46;
   text-align: center;
-  width: 30%;
+  width: 225px;
   margin: 10%;
   border-radius: 10px;
-  font-size: x-small;
+  margin-bottom: 100px;
 }
 
 .aven h2:hover::after {
   content: " .";
+  font-size: 1em;
   animation: point 1s steps(5, end) infinite;
 }
 
@@ -177,7 +180,7 @@ footer {
   bottom: 0;
   left: 0;
   background-color: #579c87;
-  height: 57px;
+  height: 67px;
   position: fixed;
 }
 
@@ -380,6 +383,16 @@ li span {
   .menu {
     margin: 10px;
     text-align: center;
+  }
+
+  .tittleimg {
+    width: 90px;
+  }
+
+  .main-accueil {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
   }
 }
 
