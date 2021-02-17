@@ -6,7 +6,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 .main-accueil {
@@ -38,6 +37,8 @@ a {
 
 .text {
   transition: 0.3s linear;
+  height: 100%;
+  width: 100%;
 }
 .text:hover {
   font-size: 1.5em;
@@ -46,14 +47,17 @@ a {
 .note {
   color: black;
   background-color: #fcdfdb;
-  font-family: cursive;
+  font-family: "Tangerine", cursive;
   grid-area: a;
+}
+
+.note span {
+  color: #000;
 }
 
 .chic {
   background-color: #fff5fe;
   color: bisque;
-  font-family: fantasy;
   grid-area: b;
 }
 
@@ -79,6 +83,7 @@ a {
   background: linear-gradient(to right, #e38913 30%, #8f5bfe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Playball", cursive;
 }
 
 .makt3 header {
@@ -89,7 +94,8 @@ a {
 
 .delice {
   background-color: #f9f9f9;
-  font-family: cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 1em;
   grid-area: c;
   background: linear-gradient(to right, #1e90ff, #00bfff);
   -webkit-background-clip: text;
@@ -105,6 +111,7 @@ a {
 .gout {
   background-color: #ffffff;
   grid-area: d;
+  font-family: "Kaushan Script", cursive;
   background: linear-gradient(to right, #90ee90, #32cd32);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -123,6 +130,10 @@ h1 {
   text-align: center;
   padding: 10px;
   margin-top: 0;
+}
+
+h2 {
+  font-size: small;
 }
 
 .aven {
@@ -170,23 +181,31 @@ main {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #579c87;
   color: #fdcb46;
   height: 100%;
   align-items: center;
+  padding-right: 10px;
 }
 
 ul {
   display: contents;
 }
 
+aside {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 57px;
+  position: fixed;
+}
+
 footer {
   width: 100%;
   bottom: 0;
   left: 0;
-  height: 67px;
-  position: fixed;
+  height: 57px;
 }
 
 .makt1 {
@@ -198,6 +217,10 @@ footer {
   top: -20px;
   width: 60%;
   font-family: fantasy;
+}
+
+.makt1 header {
+  width: 190%;
 }
 
 ul li {
@@ -223,7 +246,7 @@ h5::after, h4::after {
   display: block;
   width: 0;
   height: 2.5px;
-  background: linear-gradient(to right, #00bfff, #000);
+  background: linear-gradient(to right, #000, #fff5fe);
   transition: all 0.2s ease;
 }
 
@@ -371,6 +394,7 @@ li span {
 
   .nav {
     width: 100%;
+    padding-right: 20px;
   }
 
   body {
@@ -398,6 +422,13 @@ li span {
     display: flex;
     flex-direction: column;
     padding: 0 10px;
+  }
+
+  .litlleNote {
+    bottom: 0;
+    left: 0;
+    height: 57px;
+    position: relative;
   }
 }
 
