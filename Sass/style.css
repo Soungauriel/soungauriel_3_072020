@@ -60,10 +60,14 @@ a {
   grid-area: b;
 }
 
-.makt4 header {
+.makt4 h3 {
   background: linear-gradient(to right, #e38913 30%, #8f5bfe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.makt4 header {
+  width: 190%;
 }
 
 .chicColor {
@@ -85,10 +89,14 @@ a {
   font-family: "Playball", cursive;
 }
 
-.makt3 header {
+.makt3 h3 {
   background: linear-gradient(to right, #1e90ff, #00bfff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.makt3 header {
+  width: 190%;
 }
 
 .delice {
@@ -101,10 +109,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.makt2 header {
+.makt2 h3 {
   background: linear-gradient(to right, #90ee90, #32cd32);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.makt2 header {
+  width: 190%;
 }
 
 .gout {
@@ -213,13 +225,13 @@ footer {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  top: -20px;
+  top: -40px;
   width: 60%;
   font-family: fantasy;
 }
 
 .makt1 header {
-  width: 100%;
+  width: 190%;
 }
 
 ul li {
@@ -255,7 +267,7 @@ h5:hover::after, h4:hover::after {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   font-family: fantasy;
 }
