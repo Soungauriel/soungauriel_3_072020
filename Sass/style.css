@@ -184,7 +184,6 @@ main {
   background-color: #579c87;
   color: #fdcb46;
   height: 100%;
-  width: 100%;
   align-items: center;
   padding-right: 10px;
 }
@@ -220,7 +219,7 @@ footer {
 }
 
 .makt1 header {
-  width: 190%;
+  width: 100%;
 }
 
 ul li {
@@ -315,10 +314,9 @@ li span {
 .accueil1 {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100vh;
   background-color: #fcdfdb;
-  font-family: cursive;
+  font-family: "Tangerine", cursive;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -331,9 +329,8 @@ li span {
   color: #e38913;
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100vh;
-  font-family: serif;
+  font-family: "Playball", cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,9 +341,8 @@ li span {
 .accueil3 {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100vh;
-  font-family: cursive;
+  font-family: "Dancing Script", cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,9 +354,8 @@ li span {
 .accueil4 {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100vh;
-  font-family: cursive;
+  font-family: "Kaushan Script", cursive;
   display: flex;
   justify-content: center;
   align-items: center;
