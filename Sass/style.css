@@ -370,7 +370,7 @@ h5 {
   -webkit-text-fill-color: transparent;
 }
 
-p:hover {
+footer li:hover {
   -webkit-animation: wobble-ver-left 0.5s both;
   animation: wobble-ver-left 0.5s both;
 }
