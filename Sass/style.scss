@@ -72,10 +72,6 @@ a
     -webkit-text-fill-color: transparent;
     
 }
-.makt4 header
-{
-    width: 190%;
-}
 .chicColor
 {
     color: #e38913
@@ -101,10 +97,6 @@ a
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.makt3 header
-{
-    width: 190%;
-}
 .delice
 {
     background-color: #f9f9f9;
@@ -120,10 +112,6 @@ a
     background: linear-gradient(to right,#90ee90,#32cd32);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.makt2 header
-{
-    width: 190%;
 }
 
 .gout
@@ -145,10 +133,8 @@ strong
 h1
 {
     color: #fdcb46;
-    background-color: #579c87;
     text-align: center;
-    padding: 10px;
-    margin-top: 0;
+    margin: 0;
     
 }
 h2
@@ -213,24 +199,20 @@ main
 .nav
 {
     display: flex;
-    justify-content: space-between;
     background-color: #579c87;
     color: #fdcb46;
     height: 100%;
     align-items: center;
-    padding-right: 10px;
+    
 }
 ul
 {
     display: contents;
+    justify-content: space-between;
 }
-aside
+.song
 {
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    height: 57px;
-    position: fixed; 
+    margin-bottom: 60px;
 }
 footer
 {
@@ -239,6 +221,7 @@ footer
     bottom: 0;
     left: 0;
     height: 57px;
+    position: fixed;
 
 }
 .makt1 
@@ -248,14 +231,13 @@ footer
         flex-direction: column;
         align-items: center;
         margin: auto;
-        top: -40px;
-        width: 60%;
         font-family: fantasy;
 
 }
-.makt1 header
+header
 {
-    width: 190%;
+    width: 100%;
+    background-color: #579c87;
 }
  ul li
 {
@@ -266,10 +248,8 @@ footer
 li{
     list-style: none;
     font-size: 12px;
-    padding: 5px 0;
-    padding-left: 0 10px;
+    padding: 0 5px;
 }
-
 h4
 {
     text-align: center;
@@ -347,10 +327,6 @@ h5
     align-items: center;
     margin: auto;
 
-}
-li span
-{
-    padding-left: 15px;
 }
 .accueil1
 {
@@ -434,8 +410,8 @@ p:hover
   100% {
     -webkit-transform: translateY(0) rotate(0);
             transform: translateY(0) rotate(0);
-    -webkit-transform-origin: 20% 20%;
-            transform-origin: 20% 20%;}
+    -webkit-transform-origin: 30% 30%;
+            transform-origin: 30% 30%;}
             15% {
                 -webkit-transform: translateY(-30px) rotate(-6deg);
                         transform: translateY(-30px) rotate(-6deg);
@@ -449,7 +425,7 @@ p:hover
                         transform: translateY(-15px) rotate(-3.6deg);
               }        
 }
-@media  (max-width:768px)
+@media  (max-width:580px)
 { 
   h1 {
     width: 100%;
@@ -457,7 +433,7 @@ p:hover
 
   .nav {
     width: 100%;
-    padding-right: 20px;
+    padding-right: 0;
   }
 
   body {
@@ -473,6 +449,7 @@ p:hover
   }
 
   .menu {
+      display: flex;
     margin: 10px;
     text-align: center;
   }
@@ -481,7 +458,7 @@ p:hover
   }
   .main-accueil
   {
-      display: flex;
+    
       flex-direction: column;
       padding: 0 10px;
   }
