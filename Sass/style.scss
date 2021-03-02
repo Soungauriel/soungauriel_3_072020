@@ -33,13 +33,13 @@ a
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 91%;
     font-size: 1em;
-    height: 350px;
+    height: 297px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
         
     }
-    .text
+    .menu
     {
         transition: 0.3s linear;
         &:hover{
@@ -55,6 +55,10 @@ a
     font-family: 'Tangerine', cursive;
     grid-area: a;
 }
+.note:hover
+{
+    background-color:#fcdfdbad; ;
+}
 .note span
 {
     color: #000;
@@ -64,6 +68,10 @@ a
     background-color: #fff5fe;
     color: bisque;
     grid-area: b;
+}
+.chic:hover
+{
+    background-color:#fff5fead ;
 }
 .makt4 h3
 {
@@ -107,6 +115,10 @@ a
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.delice:hover
+{
+    background-color:#f9f9f9c5 ;
+}
 .makt2 h3
 {
     background: linear-gradient(to right,#90ee90,#32cd32);
@@ -123,6 +135,10 @@ a
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.gout:hover
+{
+    background-color:#ffffffc2 ;
+}
 strong
 {
     font-size: 2em;
@@ -135,36 +151,36 @@ h1
     color: #fdcb46;
     text-align: center;
     margin: 0;
+    padding: 15px;
+    font-size: 2em;
     
 }
 h2
 {
-    font-size: small;
-}
-.aven
-{
+    width: 231px;
+    margin: 66px 0;
+    padding: 6px 0;
+    font-family: sans-serif;
+    font-weight: 100;
     background-color: #579c87;
     color: #fdcb46;
     text-align: center;
-    width: 210px;
-    margin: 10%;
     border-radius: 9px;
-    margin-bottom: 100px;
 }
-.aven h2 span:nth-child(2)
+h2 span:nth-child(2)
 {
    
     animation: point 1s infinite;
     animation-delay: 0.25s;
 }
 
-.aven h2 span:nth-child(3)
+h2 span:nth-child(3)
 {
    
     animation: point 1s infinite;
     animation-delay: 0.5s;
 }
-.aven h2 span:nth-child(4)
+h2 span:nth-child(4)
 {
    
     animation: point 1s infinite;
@@ -220,7 +236,7 @@ footer
     background-color: #579c87;
 
 }
-.makt1 
+.makt1 section
 {
         background-color: #fcdfdb;
         display: flex;
@@ -228,6 +244,10 @@ footer
         align-items: center;
         margin: auto;
         font-family: fantasy;
+        margin-top: 20px;
+        border-radius: 9px;
+        box-shadow: 0 0 20px -10px;
+        padding: 23px;
 
 }
 header
@@ -251,7 +271,7 @@ h4
 
     
 }
-h5::after, h4::after
+h4::after, h5:hover::after
 {
     content: "";
     display: block;
@@ -260,7 +280,7 @@ h5::after, h4::after
     background:linear-gradient(to right,#000,#fff5fe);
     transition: all 0.2s ease;
 }
-h5:hover::after,  h4:hover::after
+h4:hover::after, h5:hover::after
 {
     width: 100%;
     transition: all 0.2s ease;
@@ -273,11 +293,11 @@ h3
 }
 p
 {
-    margin: 0;
-    padding: 0;
-    padding-left: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
 }
-.makt2
+.makt2 section
 {
     background-color: #ffffff;
     display: flex;
@@ -285,6 +305,10 @@ p
     align-items: center;
     margin: auto;
     font-family: fantasy;
+    margin-top: 0;
+    border-radius: 9px;
+    box-shadow: 0 0 20px -10px;
+    padding: 23px;
 
 }
 .tittleimg
@@ -303,23 +327,32 @@ h5
     text-align: center;
     
 }
-.makt3
+.makt3 section
 {
     background-color: #edefef;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    font-family: fantasy; 
+    font-family: fantasy;
+    margin-top: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 20px -10px;
+    padding: 23px; 
 
 }
-.makt4
+.makt4 section
 {
     background-color: #fff5fe;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-top: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 20px -10px;
+    padding: 23px; 
+
 
 }
 .accueil1
