@@ -153,6 +153,7 @@ h1
     margin: 0;
     padding: 15px;
     font-size: 2em;
+    font-family: 'Roboto', sans-serif;
     
 }
 h2
@@ -160,8 +161,7 @@ h2
     width: 231px;
     margin: 66px 0;
     padding: 6px 0;
-    font-family: sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
     background-color: #579c87;
     color: #fdcb46;
     text-align: center;
@@ -234,6 +234,7 @@ footer
     height: 57px;
     position: fixed;
     background-color: #579c87;
+    font-family: 'Roboto', sans-serif;
 
 }
 .makt1 section
@@ -304,8 +305,9 @@ p
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-bottom: 60px;
     font-family: fantasy;
-    margin-top: 0;
+    margin-top: 20px;
     border-radius: 9px;
     box-shadow: 0 0 20px -10px;
     padding: 23px;
@@ -334,6 +336,7 @@ h5
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-bottom: 60px;
     font-family: fantasy;
     margin-top: 20px;
     border-radius: 9px;
@@ -348,12 +351,11 @@ h5
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-bottom: 60px;
     margin-top: 20px;
     border-radius: 9px;
     box-shadow: 0 0 20px -10px;
     padding: 23px; 
-
-
 }
 .accueil1
 {
