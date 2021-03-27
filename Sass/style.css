@@ -93,7 +93,7 @@ a {
   font-family: "Playball", cursive;
 }
 
-.makt3 h3 {
+.makt3 h2 {
   background: linear-gradient(to right, #1e90ff, #00bfff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -297,10 +297,6 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-h5 {
-  text-align: center;
 }
 
 .makt3 section {
