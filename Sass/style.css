@@ -137,6 +137,7 @@ strong {
   background: linear-gradient(to right, #ff0000, #f4a460);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 h1 {
